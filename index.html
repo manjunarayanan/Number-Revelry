@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the 4-Digit Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Guess the 4-Digit Number</h1>
+    <div id="game">
+        <input type="text" id="guessInput" maxlength="4" placeholder="Enter your guess">
+        <button id="submitGuess">Submit Guess</button>
+        <div id="feedback"></div>
+    </div>
+    <div id="legend">
+        <h2>Legend</h2>
+        <div class="legend-item correct">Green - Correct digit and position</div>
+        <div class="legend-item correct-position">Yellow - Correct digit but wrong position</div>
+        <div class="legend-item wrong">Red - Incorrect digit</div>
+    </div>
+    <div id="celebration" class="hidden">
+        <h2>Congratulations!</h2>
+        <p>You guessed the number correctly!</p>
+        <div class="fireworks"></div>
+        <div class="gift">🎁</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#game {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+#feedback {
+    margin-top: 20px;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+}
+
+.correct-position {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    margin: 2px;
+}
+
+.wrong {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+}
+
+#legend {
+    margin-top: 20px;
+}
+
+.legend-item {
+    font-size: 16px;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+    color: #333;
+}
+
+.correct { background-color: green; }
+.correct-position { background-color: yellow; color: black; }
+.wrong { background-color: red; }
+
+#celebration {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.hidden {
+    display: none;
+}
+
+.fireworks {
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    background: url('fireworks.gif') no-repeat center center;
+    background-size: cover;
+}
+
+.gift {
+    font-size: 50px;
+}
+
